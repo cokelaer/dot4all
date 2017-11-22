@@ -18,7 +18,6 @@ From: ubuntu:17.04
         ./graphviz dot -Tsvg test.dot -o test.svg
         ./graphviz circo -Tsvg test.dot -o test.svg
 
-
 %post
 
     apt-get -y update
@@ -30,11 +29,6 @@ From: ubuntu:17.04
     if [ ! -d /scratch ]; then mkdir /scratch; fi
     if [ ! -d /mounting ]; then mkdir /mounting; fi
     if [ ! -d /pasteur ]; then mkdir /pasteur; fi
-
-    # What can be cleaned ?
-    rm -rf staging
-    rm -rf workspace
-    rm -rf distfile
 
 %environment
     export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
