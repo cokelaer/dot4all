@@ -1,7 +1,7 @@
 # graphviz4all
 
 
-**DEPRECATED, Aug 2020**: This is now part of damona.readthedocs.io project.
+**DEPRECATED, Aug 2020**: This is now part of https://damona.readthedocs.io project.
 
     damona install graphviz
 
