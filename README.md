@@ -1,5 +1,10 @@
 # graphviz4all
 
+
+**DEPRECATED, Aug 2020**: This is now part of damona.readthedocs.io project.
+
+    damona install graphviz
+
 A container with graphviz (http://www.graphviz.org/) executables (dot, circo, etc). 
 
 This is for Singularity 2.4 at least and is available on singularity-hub
